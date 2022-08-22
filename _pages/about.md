@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am a PhD student at the University of Geneva in Switzerland. 
+Hi, I am a PhD student at the University of Geneva. 
 I work in the Machine Learning Group under the supervision of [François 
 Fleuret](https://fleuret.org/francois/about.html). 
 
