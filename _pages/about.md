@@ -1,14 +1,14 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: "About"
+excerpt: "About"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hello! I am a PhD student at the University of Geneva in Switzerland. 
+Hi, I am a PhD student at the University of Geneva in Switzerland. 
 I work in the Machine Learning Group under the supervision of [François 
 Fleuret](https://fleuret.org/francois/about.html). 
 
