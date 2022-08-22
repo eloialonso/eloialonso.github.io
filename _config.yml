@@ -11,7 +11,7 @@ title                    : "Eloi Alonso"
 title_separator          : "-"
 name                     : &name "Eloi Alonso"
 description              : &description "PhD student in the Machine Learning Group, UNIGE."
-url                      : https://eloialonso.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://eloialonso.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "eloialonso/eloialonso.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -82,12 +82,13 @@ analytics:
 author:
   name             : "Eloi Alonso"
   avatar           : "profile.png"
-  bio              : "PhD student in the Machine Learning Group, UNIGE."
-  location         : "University of Geneva, Switzerland"
+  bio              : "PhD student in the Machine Learning Group at University of Geneva."
+  location         : "Geneva, Switzerland"
+  googlemaps       : "https://goo.gl/maps/e3AiFL65i1Z6YXQS7"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=Ya4KugcAAAAJ"
-  email            :
+  email            : "eloi.alonso@unige.ch"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -178,6 +179,9 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+  citations:
+    output: true
+    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
@@ -226,6 +230,15 @@ defaults:
       layout: single
       author_profile: true
       share: true
+      comments: true
+  # _citations
+  - scope:
+      path: ""
+      type: citations
+    values:
+      # layout: single
+      author_profile: true
+      share: false
       comments: true
   # _portfolio
   - scope:
