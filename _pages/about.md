@@ -14,7 +14,7 @@ Fleuret](https://fleuret.org/francois/about.html).
 
 # Selected papers
 
-Vincent Micheli\*, Eloi Alonso\*, François Fleuretard - [Transformers are Sample Efficient World Models](https://arxiv.org/pdf/2209.00588) - arXiv preprint - [code](https://github.com/eloialonso/iris) - <a href="citation/transformers-are-sample-efficient-world-models" ><i class="fa fa-quote-right fa-xs" aria-hidden="true" style="text-decoration: none; color: black;"></i></a>
+Vincent Micheli\*, Eloi Alonso\*, François Fleuret - [Transformers are Sample Efficient World Models](https://arxiv.org/pdf/2209.00588) - arXiv preprint - [code](https://github.com/eloialonso/iris) - <a href="citation/transformers-are-sample-efficient-world-models" ><i class="fa fa-quote-right fa-xs" aria-hidden="true" style="text-decoration: none; color: black;"></i></a>
 
 Eloi Alonso\*, Maxim Peter\*, David Goumard, Joshua Romoff - [Deep Reinforcement Learning for Navigation in AAA Video Games](https://www.ijcai.org/proceedings/2021/0294.pdf) - IJCAI 2021 - <a href="citation/deep-reinforcement-learning-for-navigation-in-aaa-video-games" ><i class="fa fa-quote-right fa-xs" aria-hidden="true" style="text-decoration: none; color: black;"></i></a>
 
