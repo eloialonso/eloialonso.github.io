@@ -1,11 +1,8 @@
 ---
 permalink: /
-title: "About"
-excerpt: "About"
+title: ""
+excerpt: "Home"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
 Hi, I am a PhD student at the University of Geneva. 

@@ -1,0 +1,88 @@
+:root {
+    --highlight: #27AE60;
+    --gray: #5D5D5D;
+    --lightgray: #D3D3D3;
+    --dark: #414141;
+    --link: hsl(216, 88%, 45%);
+}
+
+.cvsection {
+    margin-bottom: 3em;
+}
+
+.cvsectionheader {
+    width: 100%; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 0.2rem solid #000; 
+    line-height: 0.55rem;
+    margin-bottom: 1em;
+    
+    span { 
+        background-color:#fff;
+        padding: 0 0.5rem 0 0;
+    }
+} 
+
+.cventrycontainer {
+    display: grid;
+    grid-template-columns: 3em auto 25%;
+    column-gap: 2%;
+    margin: 1em 0;
+
+    a:link, a:visited, a:hover, a:active  {
+        text-decoration: none;
+    }
+}
+
+.invisiblelink {
+    color: inherit;
+}
+
+.cventrylogo {
+    display: flex;
+    align-items: center;
+}
+
+.cventrylogo img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.cventryinstitution {
+    color: var(--dark);
+    font-weight: bold;
+}
+
+.cventryposition {
+    color: var(--gray);
+    font-size: 0.9rem;
+    font-variant: small-caps;
+}
+
+.cventrylocationdate {
+    font-style: italic;
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+.cventrylocation {
+    color: var(--highlight);
+}
+
+.cventrydate {
+    color: var(--gray);
+}
+
+.cventrydescription {
+    grid-column: 2 / 4;
+    grid-row: 2;
+    ul {
+        background-color: pink;
+        padding-left: 1rem;
+    }
+    li {
+        background-color: #27AE60;
+    }
+}
