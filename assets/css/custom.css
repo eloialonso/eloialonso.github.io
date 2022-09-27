@@ -17,12 +17,12 @@
     border-bottom: 0.2rem solid #000; 
     line-height: 0.55rem;
     margin-bottom: 1em;
-    
-    span { 
-        background-color:#fff;
-        padding: 0 0.5rem 0 0;
-    }
 } 
+
+.cvsectionheader span {
+    background-color: white;
+    padding: 0 0.5rem 0 0;
+}
 
 .cventrycontainer {
     display: grid;
@@ -30,9 +30,10 @@
     column-gap: 2%;
     margin: 1em 0;
 
-    a:link, a:visited, a:hover, a:active  {
-        text-decoration: none;
-    }
+}
+
+.cventrycontainer a:link, a:visited, a:hover, a:active  {
+    text-decoration: none;
 }
 
 .invisiblelink {
@@ -78,11 +79,13 @@
 .cventrydescription {
     grid-column: 2 / 4;
     grid-row: 2;
-    ul {
-        background-color: pink;
-        padding-left: 1rem;
-    }
-    li {
-        background-color: #27AE60;
-    }
+}
+
+.cventrydescription ul {
+    background-color: pink;
+    padding-left: 1rem;
+}
+
+.cventrydescription li {
+    background-color: #27AE60;
 }
