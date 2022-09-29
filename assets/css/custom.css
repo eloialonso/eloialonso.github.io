@@ -106,7 +106,7 @@
 
 .publicationcontainer {
     display: grid;
-    grid-template-columns: auto 15%;
+    grid-template-columns: auto 10%;
     column-gap: 2%;
     margin: 1em 0;
 }
