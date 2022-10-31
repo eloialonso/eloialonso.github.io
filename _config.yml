@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Eloi Alonso"
 title_separator          : "-"
 name                     : &name "Eloi Alonso"
-description              : &description "PhD student in the Machine Learning Group, UNIGE."
+description              : &description "PhD student in Machine Learning at the University of Geneva."
 url                      : https://eloialonso.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "eloialonso/eloialonso.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Eloi Alonso"
   avatar           : "profile.png"
-  bio              : "PhD student in the Machine Learning Group at University of Geneva."
+  bio              : "PhD student in Machine Learning at the University of Geneva."
   location         : 
   googlemaps       : "https://goo.gl/maps/e3AiFL65i1Z6YXQS7"
   employer         :
