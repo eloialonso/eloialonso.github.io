@@ -134,7 +134,7 @@ a:active {
   }
 
   aside {
-    width: 100%;
+    width: auto;
     text-align: center;
     padding-bottom: 20px;
   }
